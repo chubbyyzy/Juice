@@ -1,0 +1,258 @@
+
+.loading{
+    display:none;
+}
+
+.total-score {
+  background-color:#DDFFD5;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  color:#009966;
+}
+
+.detect-result{
+  background-color:#CCCCCC;
+  padding-top: 20px;
+
+}
+
+.detect-notes{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color:#DDFFD5;
+
+}
+
+.send{
+    width: 100%;
+    top: 10px;
+    position: absolute;
+    text-align: center;
+}
+
+.try{
+    width: 100%;
+    top: 10px;
+    position: absolute;
+    text-align: center;
+
+}
+.back-gray{
+    background-color:#CCCCCC;
+}
+.photo-picker{
+    color: white;
+    background-color:blue;
+}
+.fix-row{
+    height: 50px;
+    line-height: 50px;
+    align-content: center;
+    align-items: center;
+}
+
+.ranking-row{
+    background-color:#DDFFD5;
+}
+
+.ranking-list{
+    padding: 0px;
+    border-bottom-width: 10px;
+}
+
+.ranking-cover{
+    background-color:#CCCCCC;
+
+}
+
+.general-desc{
+    position:relative;
+    top:-55px;
+    text-align:center;
+    color:white;
+
+}
+
+.score{
+position:relative;
+top:-75px;
+text-align:center;
+color:white;
+}
+
+.middle{
+text-align:center;
+top:-200px;
+position:relative;
+
+}
+
+.action-left{
+background-color:#FF9700;
+height:30px;
+font-size:16px;
+color:white;
+position:relative;
+top: 185px;
+border-radius: 0px 10px 10px 0px;
+vertical-algin:middle;
+}
+
+.action-right{
+background-color:#FF9700;
+height:30px;
+font-size:16px;
+color:white;
+position:relative;
+top: 185px;
+border-radius: 10px 0px 0px 10px;
+}
+
+.photo{
+position:relative;
+top:138px;
+}
+
+.img-border{
+border: solid #FF7400;
+border-radius:50%;
+}
+
+.detail{
+position:relative;
+top:-60px;
+}
+
+
+.task{
+position:relative;
+top:-20px;
+}
+
+.task-detail{
+background-color:#ffaf1b;
+height:50px;
+font-size:16px;
+color:white;
+margin: auto;
+border-radius: 0px 10px 10px 0px;
+}
+
+
+.task-check{
+background-color:#ffaf1b;
+height:50px;
+border-radius: 0px 10px 10px 0px;
+}
+
+.check-task{
+width:50px;
+height:50px;
+}
+
+.task-desc{
+    font-size: 16px ;
+    margin-left:2px
+}
+
+.task-seperator{
+height:10px;
+}
+
+.help{
+position:absolute;
+top:10px;
+left:20%;
+color:white;
+}
+
+.footer{
+position:relative;
+background: url("/images/bottombg.png") no-repeat;
+height: 150px;
+background-size: 100%;
+display: block;
+text-align: center;
+color: white;
+font-size: x-large;
+padding-top: 30px;
+}
+
+.checking{
+text-align:center;
+background-color:#ffaf1b;
+height:500px;
+max-width:100%;
+}
+
+.img-center{
+height: auto;
+position: relative;
+top: 50%;
+transform: 			translateY(-50%);
+}
+
+.checking{
+background-color:#FF9700;
+}
+
+@-webkit-keyframes rotate {
+  from {-webkit-transform:rotate(0deg);}
+  to {-webkit-transform:rotate(360deg);}
+}
+
+.inprogress {
+  -webkit-animation-name: rotate;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  display:none;
+  position:absolute;
+  z-index: 1;
+}
+
+.inprogressimage{
+    width:100px;
+    height:100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttonbar{
+    height:100px;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.emotionnotesinput{
+    width: 90%;
+    margin-top: 10px;
+}
+
+.taskselected{
+  border: 3px solid #B0FF1B;
+}
+.taskcheckbox{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.taskcheckboxon{
+    background: url(/images/checkbox.png) no-repeat 0px -30px;
+    background-size: 30px;
+}
+
+.taskcheckboxoff{
+    background: url(/images/checkbox.png) no-repeat 0px 0px;
+    background-size: 30px;
+}
